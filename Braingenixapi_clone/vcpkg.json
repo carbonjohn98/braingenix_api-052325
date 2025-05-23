@@ -1,0 +1,21 @@
+{
+  "name": "braingenix-api",
+  "version-string": "0.0.1",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": [
+    "yaml-cpp",
+    {
+      "name": "restbed",
+      "features": [
+        "openssl"
+      ]
+    },
+    "boost-program-options",
+    "nlohmann-json",
+    "rpclib",
+    "spdlog",
+    "libmariadb",
+    "bg-common-logger",
+    "cpp-base64"
+  ]
+}
